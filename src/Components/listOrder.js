@@ -10,8 +10,6 @@ const ListOrder = (props) => {
       </ol>
       <p>{props.tasks.length} Tareas</p>
     </div>
-    
   );
 };
-
 export default ListOrder;
