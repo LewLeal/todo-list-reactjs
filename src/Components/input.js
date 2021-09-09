@@ -16,7 +16,7 @@ const Input = (props) => {
           placeholder="Ingrea una tarea!"
           value={inputValue}
           required
-          onChange={(event) => setInputValue(event.target.value)}
+          onChange={(e) => setInputValue(e.target.value)}
         ></input>
         <button>Agregue contenido a su lista</button>
       </form>
