@@ -6,6 +6,7 @@ const Input = (props) => {
   function handleSumbit(e) {
     e.preventDefault();
     props.change(inputValue);
+    setInputValue("")
   }
 
   return (
@@ -18,7 +19,7 @@ const Input = (props) => {
           required
           onChange={(e) => setInputValue(e.target.value)}
         ></input>
-        <button>Agregue contenido a su lista</button>
+        
       </form>
     </div>
   );

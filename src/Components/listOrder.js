@@ -8,7 +8,9 @@ const ListOrder = (props) => {
           return <li key={key}>{item}</li>;
         })}
       </ol>
+      <p>{props.tasks.length} Tareas</p>
     </div>
+    
   );
 };
 
